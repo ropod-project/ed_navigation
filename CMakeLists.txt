@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(ed_navigation)
 
+#set(CMAKE_BUILD_TYPE "RelWithDebInfo")
+
 find_package(catkin REQUIRED COMPONENTS
   cb_planner_msgs_srvs
   ed
